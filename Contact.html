@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homework 01</title>
+  <style>
+    body {
+      font-family: arial, sans-serif;
+
+    }
+
+    form {
+      margin-left: 10px;
+    }
+
+    input {
+      display: inline-block;
+      margin-bottom: 10px;
+      padding: 8px;
+      font-size: 20px;
+    }
+
+    form {
+      
+      margin: 50px;
+      border: 2px solid black ;
+      border-radius: 15px;
+      width: 400px;
+    }
+
+    div {
+      margin: 50px;
+      font-size: 20px;
+    }
+
+    select {
+      font-size: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <a href="index.html">Home</a> |
+    <a href="Education.html">Education</a> |
+    <a href="Work.html">Work Experience</a> |
+    <a href="Contact.html">Contact Me</a> |
+  <hr>
+  <h1>Contact Me</h1>
+
+  <form>
+    <div>
+      <h3>Enter your info</h3>
+      <label>First name:</label><br>
+      <input type="text" placeholder="First name"><br>
+      <label>Last name:</label><br>
+      <input type="text" placeholder="Last name"><br>
+      <label>Gender:</label><br>
+      <select name="Gender">
+        <option  disabled selected>select...</option>
+        <option value="Male">MALE</option>
+        <option value="Female">FEMALE</option>
+        <option value="LGBT">LGBT</option>
+      </select><br><br>
+      <label>Message:</label><br>
+      <textarea name="Message" cols="30" rows="10"></textarea>
+      <br><br>
+      <input type="submit" value="Send">
+      <input type="reset" value="Clear">
+      
+    </div>
+  </form>
+</body>
+
+</html>
